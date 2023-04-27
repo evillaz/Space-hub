@@ -96,7 +96,7 @@ The Project will be deployed after final approval.
 
 ## 👥 Author <a name="authors"></a>
 
-👤 \*\*\*\*
+👤 **Eduadoe Villarreal**
 
 - GitHub: [@githubhandle](https://github.com/)
 - Linkedin: [@twitterhandle](https://www.linkedin.com/in/)
@@ -104,9 +104,9 @@ The Project will be deployed after final approval.
 
 👤 **Okpah Igbo**
 
-- GitHub: [@githubhandle](https://github.com/david30-maker)
-- Twitter: [@twitterhandle](https://twitter.com/davidigbo)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/dvid-igbo-464196184/)
+- GitHub: [@david30-maker](https://github.com/david30-maker)
+- Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
+- LinkedIn: [dvid-igbo-464196184/](https://linkedin.com/in/dvid-igbo-464196184/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
