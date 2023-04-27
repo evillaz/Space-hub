@@ -1,14 +1,36 @@
-# React-group-Project
+<div align="center"><h1>Space Travelerers Hub</h1>
+<img src="https://github.com/evillaz/react-redux-group-project/blob/dev/live%20pic.png">
+</div>
+
 
 <a name="readme-top"></a>
 
-<div align="center">
-  
-  <br/>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-  <h3><b>React-group-Project</b></h3>
+Modify this file to match your project and remove sections that don't apply.
 
-</div>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -29,29 +51,84 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 React-group-Project <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**React-group-Project** is a Project that fetchs images through base API and displays them on the app pages. User can reserve rockets and missions. User reservation and member that joins mission will be displayed on the profile page.
+# 📖 [Space Travelerers Hub] <a name="about-project"></a>
+
+*Space Travelers' Hub* consists of Rockets, Missions, and the My Profile section.
+
+**Rockets**
+- The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking. 
+
+**Missions**
+- The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
+
+**My Profile**
+- The My Profile section displays all reserved rockets and space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-React Redux and API
-
 ### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">React</a></li>    
+    <li><a href="">Redux</a></li>
+    <li><a href="">JS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="">React</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://api.spacexdata.com"> SpaceX API</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[React Redux and usage of API ]**
+- **[Setup a new React application using Create React App]**
+- **[Create a directory for your reusable components: /components.]**
+- **[Use React Router.]**
+- **[Create routes and view components: rockets, missions, my profile.]**
+- **[Remove a selected book]**
+- **[Add reducers and actions]**
+- **[Use Redux in React components]**
+- **[Connect to SpaceX API.]**
+- **[Render UI:lists: Use useSelector() Redux Hook to select the state slices and render lists of rockets and missions in corresponding routes.]**
+- **[Redux: Write actions and reducers for booking rockets/dragons and joining missions]**
+- **[Redux: Write actions and reducers for canceling rockets/dragons and leaving missions]**
+- **[Render UI: conditional components rendering]**
+- **[Render UI: My Profile section]**
+- **[Technical set up**
+  - Set up the repository on GitHub and use Gitflow.
+  - Set up React and Redux.
+  - Set up testing libraries(React Testing Library and Jest).
+  - Do not preserve user data.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"> </a>
+<!-- LIVE DEMO -->
 
-- [Live Demo](Will be available after final approval)
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- **[Live Demo!](https://space-travelers-hub-2zo8.onrender.com/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -59,48 +136,73 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-Web Browser, Code Editor.
+In order to run this project you need:
+- GitBash installed on your OS 
+- Visual Studio Code or a reliable code editor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+
 Example commands:
 
 ```sh
-  git clone git@github.com:evillaz/space-hub.git
-  cd space-hub/
+  cd space-travelers-hub
+  git clone git@github.com:evillaz/space-travelers-hub.git
 ```
 
 ### Install
 
--npm install
+Run this command: 
+
+Example command:
+
+```sh
+  cd space-travelers-hub
+  npm install
+```
+
 
 ### Usage
 
--npm start
+Run this command: 
 
-user must be able to see the Data fetched through API and must be able to reserve rockets and missions.
+Example command:
+
+```sh
+  cd space-travelers-hub
+  npm start
+```
+
 
 ### Run tests
 
--npm test
+Example command:
 
-Reserve rockets and missions and must be able to see on the profile page.
+```sh
+  cd space-travelers-hub
+  npm test
+```
 
 ### Deployment
 
-The Project will be deployed after final approval.
+
+You can deploy this project using:
+
+Visual studio code, another realiable code editor or a Web browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+<!-- AUTHORS -->
 
-👤 **Eduadoe Villarreal**
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@githubhandle](https://github.com/)
-- Linkedin: [@twitterhandle](https://www.linkedin.com/in/)
-- Twitter: [LinkedIn](https://twitter.com/)
+👤 **Eduardo Villarreal**
+
+- GitHub: [@evillaz](https://github.com/evillaz)
+- Twitter: [@evillazz](https://twitter.com/evillazz)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/eduardo-villarreal-144a8925a)
 
 👤 **Okpah Igbo**
 
@@ -108,35 +210,62 @@ The Project will be deployed after final approval.
 - Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
 - LinkedIn: [dvid-igbo-464196184/](https://linkedin.com/in/dvid-igbo-464196184/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Functionality of fetching Data from APIs and displaying in UI. Functionality of reservations of rockets and missions will be implemented in the final stage. In future we can add more features to enhance our application**
+- **[Enhance the My Profile section by adding a placeholder message when the "My Missions" or "My Rockets" lists are empty (no missions joined or no rockets reserved).]**
+- **[Enhance the My Profile section by adding the "Cancel reservation" and "Leave Mission" buttons to the lists here. Clicking them should dispatch the actions you have already used in the main Rockets and Missions sections.]**
+- **[Enhance the My Profile section by adding the "Read more" button for each mission and rocket. Upon click, it should open a corresponding Wikipedia page in a new tab. NOTE - you need to get that extra Wikipedia URL from the API's payload.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please consider leaving a review.
+If you like this project  don't doubt on make any comments or try to reach me out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner's Eduador Villarreal
-for his cooperation and contribution to this project.
+<!-- Give credit to everyone who inspired your codebase. -->
+
+I would like to thank microverse for the opportunity on working each other as colleagues and the learning opportunities it brings us.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Did you find hard to create this project?**
+
+  - I tried my best and follow the guidelines to create this project. I got hard times on some of the workflow but i think i just have to keep learning everyday and give my best try every time.
+
+- **What was your thinking process to solve the requirements?**
+
+  - First i tried to address each one of the requirements and solve them individually to keep integrating them as i was progressing.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
