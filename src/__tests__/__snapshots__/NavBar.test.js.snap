@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavBar Testing of NavBar.jsx 1`] = `
+exports['NavBar Testing of NavBar.jsx 1'] = `
 <DocumentFragment>
   <div
     class="nav-bar"
