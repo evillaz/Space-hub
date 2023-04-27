@@ -8,9 +8,8 @@ const ProfileView = () => {
     return false;
   }));
 
-const rockets =useSelector((store) => store.rockets);
-const filteredRockets = rockets.filter((rocket) => rocket.reserved === true);
-
+  const rockets = useSelector((store) => store.rockets);
+  const filteredRockets = rockets.filter((rocket) => rocket.reserved === true);
 
   return (
     <div className="profile-container">
@@ -35,7 +34,7 @@ const filteredRockets = rockets.filter((rocket) => rocket.reserved === true);
         <ul className="feature-list">
           {filteredRockets.map((rocket) => {
             const rocketId = rocket.id;
-            return <li className="feature-item" key={rocketId}>{rocket.name}</li>;  
+            return <li className="feature-item" key={rocketId}>{rocket.rocket_name}</li>;
           })}
         </ul>
       </div>

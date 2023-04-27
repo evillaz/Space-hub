@@ -1,5 +1,8 @@
+import ProfileView from '../components/ProfileView';
+
 const MyProfile = () => (
   <>
+    <ProfileView />
   </>
 );
 
