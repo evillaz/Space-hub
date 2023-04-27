@@ -17,7 +17,6 @@ const ProfileView = () => {
         </ul>
       </div>
     </div>
-
   );
 };
 
