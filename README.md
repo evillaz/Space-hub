@@ -149,7 +149,7 @@ Example commands:
 
 ```sh
   cd space-travelers-hub
-  git clone git@github.com:evillaz/space-travelers-hub.git
+  git clone git@github.com:evillaz/space-hub.git
 ```
 
 ### Install
@@ -159,7 +159,7 @@ Run this command:
 Example command:
 
 ```sh
-  cd space-travelers-hub
+  cd space-hub
   npm install
 ```
 
@@ -171,7 +171,7 @@ Run this command:
 Example command:
 
 ```sh
-  cd space-travelers-hub
+  cd space-hub
   npm start
 ```
 
@@ -181,7 +181,7 @@ Example command:
 Example command:
 
 ```sh
-  cd space-travelers-hub
+  cd space-hub
   npm test
 ```
 
