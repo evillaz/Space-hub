@@ -1,4 +1,4 @@
-<div align="center"><h1>Space Travelerers Hub</h1>
+<div align="center"><h1>Space Hub</h1>
 <img src="https://github.com/evillaz/react-redux-group-project/blob/dev/live%20pic.png">
 </div>
 
@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Space Travelerers Hub] <a name="about-project"></a>
+# 📖 [Space Hub] <a name="about-project"></a>
 
 *Space Travelers' Hub* consists of Rockets, Missions, and the My Profile section.
 
