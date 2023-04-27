@@ -9,7 +9,7 @@ const ProfileView = () => {
   }));
 
   const rockets = useSelector((store) => store.rockets);
-  const filteredRockets = rockets.filter((rocket) => rocket.reserved === true);
+  const filteredRockets = rockets.rocketsfilter((rocket) => rocket.reserved === true);
 
   return (
     <div className="profile-container">
