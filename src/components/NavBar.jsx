@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import spaceLogo from './Images/planet.png';
+import './styles/NavBar.css';
 
 const NavBar = () => (
   <div className="nav-bar">
