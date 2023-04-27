@@ -1,6 +1,12 @@
 import { useSelector } from 'react-redux';
 
 const ProfileView = () => {
+  const myMissions = useSelector((store) => store.missions.missions.filter((mission) => {
+    if (mission.reserved) {
+      return true;
+    }
+    return false;
+  }));
   const rockets = useSelector((store) => store.rockets);
   const filteredRockets = rockets.rockets.filter((rocket) => rocket.reserved === true);
 
@@ -9,7 +15,17 @@ const ProfileView = () => {
       <div className="my-subtab">
         <h3 className="profile-heading">My Missions</h3>
         <ul className="feature-list">
-          Missions
+          {myMissions.length > 0
+            ? (
+              myMissions.map((mission) => (
+                <li className="feature-item" key={mission.mission_id}>{mission.mission_name}</li>
+              ))
+            )
+            : (
+              <div className="feature-item">
+                You haven&apos;t joined any Missions yet
+              </div>
+            )}
         </ul>
       </div>
       <div className="my-subtab">
@@ -22,7 +38,6 @@ const ProfileView = () => {
         </ul>
       </div>
     </div>
-
   );
 };
 

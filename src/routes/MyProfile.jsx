@@ -1,9 +1,9 @@
 import ProfileView from '../components/ProfileView';
 
-const MyProfile = () => (
+const Profile = () => (
   <>
     <ProfileView />
   </>
 );
 
-export default MyProfile;
+export default Profile;
