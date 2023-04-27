@@ -1,6 +1,9 @@
-const MyProfile = () => (
+import ProfileView from '../components/ProfileView';
+
+const Profile = () => (
   <>
+    <ProfileView />
   </>
 );
 
-export default MyProfile;
+export default Profile;

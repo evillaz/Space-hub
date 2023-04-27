@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Rockets from './routes/Rockets';
 import Missions from './routes/Missions';
 import Profile from './routes/MyProfile';
+import './styles/style.css';
 
 function App() {
   return (

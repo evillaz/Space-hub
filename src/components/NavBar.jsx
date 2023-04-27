@@ -3,7 +3,7 @@ import spaceLogo from './Images/planet.png';
 
 const NavBar = () => (
   <div className="nav-bar">
-    <NavLink to="/" style={{ color: '#000' }}>
+    <NavLink className="nav-Header" to="/" style={{ color: '#000' }}>
       <div className="logo">
         <img src={spaceLogo} alt="Space Logo" />
         <h1>Space Travelers Hub</h1>
