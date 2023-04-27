@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { makeReservation, cancelReservation } from '../redux/rockets/rocketsSlice';
+import './styles/RocketsItem.css';
 
 const RocketsItem = ({
   name, description, img, id, reserved,
@@ -12,11 +13,11 @@ const RocketsItem = ({
     <>
       <article className="rocket-container">
         <div className="rocket-img">
-          <img src={img} alt="viewimage" />
+          <img src={img} className="images" alt="viewimage" />
         </div>
-        <div>
-          <h2>{name}</h2>
-          <p>
+        <div className="name-container">
+          <h2 className="heading">{name}</h2>
+          <p className="description">
             {reserved && <span>Reserved</span>}
             {description}
           </p>
