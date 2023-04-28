@@ -148,7 +148,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd space-travelers-hub
+  cd space-hub
   git clone git@github.com:evillaz/space-hub.git
 ```
 
@@ -183,6 +183,7 @@ Example command:
 ```sh
   cd space-hub
   npm test
+  a ( to run all tests)
 ```
 
 ### Deployment
