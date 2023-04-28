@@ -11,7 +11,7 @@
 
 .rocket-items {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 70%;
@@ -63,20 +63,20 @@ span {
   border-radius: 5px;
   background-color: rgb(26, 94, 94);
   margin: 2px 10px 2px 0;
-  padding:1px
+  padding: 1px;
 }
 
-  .btn-cancel {
-    box-shadow:
-      1px -1px 0 #cccaca,
-      -1px 1px 0 #a7a6a6;
-    border-radius: 8px;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 700;
-    padding: 0.5rem 1rem;
-    margin: 10px 0 10px 0;
-  }
+.btn-cancel {
+  box-shadow:
+    1px -1px 0 #cccaca,
+    -1px 1px 0 #a7a6a6;
+  border-radius: 8px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  margin: 10px 0 10px 0;
+}
 
 .btn-reserve {
   background-color: rgb(80, 80, 240);

@@ -16,8 +16,8 @@ describe('ProfileView.jsx', () => {
           { mission_id: 2, mission_name: 'Mission 2', reserved: false },
         ],
       },
-      rocket: {
-        RocketDatile: [
+      rockets: {
+        rockets: [
           { id: 1, name: 'Rocket 1', reserved: true },
           { id: 2, name: 'Rocket 2', reserved: false },
         ],
