@@ -209,7 +209,7 @@ Visual studio code, another realiable code editor or a Web browser
 
 - GitHub: [@david30-maker](https://github.com/david30-maker)
 - Twitter: [@davidigbo1](https://twitter.com/davidigbo1)
-- LinkedIn: [dvid-igbo-464196184/](https://linkedin.com/in/dvid-igbo-464196184/)
+- LinkedIn: [david-igbo-464196184/](https://linkedin.com/in/david-igbo-464196184/)
 
 <!-- FUTURE FEATURES -->
 
