@@ -5,6 +5,7 @@ export const fetchRockets = createAsyncThunk('rockets/fetchRockets', async () =>
   const data = await response.json();
   return data;
 });
+
 const initialState = {
   rockets: [],
 };
@@ -23,14 +24,14 @@ const rocketsSlice = createSlice({
       const rocket = newState.rockets.find((rocket) => rocket.id === action.payload);
       rocket.reserved = false;
     },
-
   },
 
-  extraReducers: {
-    [fetchRockets.fulfilled]: (state, action) => {
-      const newState = state;
-      newState.rockets = action.payload;
-    },
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchRockets.fulfilled, (state, action) => ({
+        ...state,
+        rockets: action.payload,
+      }));
   },
 });
 

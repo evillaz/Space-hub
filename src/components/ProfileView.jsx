@@ -12,9 +12,9 @@ const ProfileView = () => {
   }));
 
   return (
-    
+
     <div className="profile-container">
-       <div className="my-subtab">
+      <div className="my-subtab">
         <h3 className="profile-heading">My Missions</h3>
         <ul className="feature-list">
           {myMissions.length > 0
